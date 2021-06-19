@@ -27,13 +27,22 @@
     "C_Cpp.intelliSenseEngine": "Disabled",
     "clangd.arguments": [
       "--compile-commands-dir=${workspaceFolder}/build/compile_commands.json",
-    //   "-clang-tidy-checks=-*,modernize-use-override",
-    //   "--suggest-missing-includes",
-    //   "--header-insertion=iwyu",
-    //   "-log=verbose", 
-    //   "-pretty", 
-    //   "--background-index", 
     ],
-
-    "testMate.cpp.test.executables": "{build,Build,BUILD,out,Out,OUT}/**/*{test,Test,TEST}*"
 }
+// {
+//     "cmake.cmakePath": "/home/renda/Qt/Tools/CMake/bin/cmake",
+//     "cmake.configureSettings": {
+//         "CMAKE_PREFIX_PATH": "/home/renda/Qt/5.15.2/gcc_64/lib/cmake/",
+//     },
+//     "cmake.sourceDirectory": "${workspaceFolder}/",
+//     "files.associations": {
+//         "qcoreapplication": "cpp",
+//         "qtxml": "cpp",
+//         "qdomdocument": "cpp",
+//         "qpair": "cpp"
+//     },
+//     "C_Cpp.autocomplete": "Disabled",
+//     "C_Cpp.formatting": "Disabled",
+//     "C_Cpp.errorSquiggles": "Disabled",
+//     "C_Cpp.intelliSenseEngine": "Disabled"
+// }
